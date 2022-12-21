@@ -1,19 +1,19 @@
-# Usage
+# Install
 
 ```bash
-npm i --save react-native-vertical-input-credit-card
+npm i --save https://github.com/TouchMedia360/react-native-input-credit-card
 OR
-yarn add react-native-vertical-input-credit-card
+yarn add https://github.com/TouchMedia360/react-native-input-credit-card
 ```
 
 # React Native Credit Card Input
 Easy (and good looking) credit-card input for your React Native Project 💳 💳
 
 <p align="center">
-<img src="https://github.com/akashahmad/react-native-vertical-input-credit-card/blob/master/preview-ios.gif?raw=true" width=200/>
-<img src="https://github.com/akashahmad/react-native-vertical-input-credit-card/blob/master/preview-ios-lite.gif?raw=true" width=200/>
-<img src="https://github.com/akashahmad/react-native-vertical-input-credit-card/blob/master/preview-android.gif?raw=true" width=200/>
-<img src="https://github.com/akashahmad/react-native-vertical-input-credit-card/blob/master/preview-android-lite.gif?raw=true" width=200/>
+<img src="https://github.com/TouchMedia360/react-native-input-credit-card/blob/master/preview-ios.gif?raw=true" width=200/>
+<img src="https://github.com/TouchMedia360/react-native-input-credit-card/blob/master/preview-ios-lite.gif?raw=true" width=200/>
+<img src="https://github.com/TouchMedia360/react-native-input-credit-card/blob/master/preview-android.gif?raw=true" width=200/>
+<img src="https://github.com/TouchMedia360/react-native-input-credit-card/blob/master/preview-android-lite.gif?raw=true" width=200/>
 </p>
 
 Code:
@@ -26,7 +26,7 @@ Code:
 
 
 # Features
-* Skeuomorphic credit-card 💳 (inspired by: [card](https://jessepollak.github.io/card/), [react-native-credit-card](https://github.com/akashahmad/react-native-vertical-input-credit-card))
+* Skeuomorphic credit-card 💳 (inspired by: [card](https://jessepollak.github.io/card/), [react-native-credit-card](https://github.com/sonnylazuardi/react-native-credit-card))
 * **!!NEW!!** Now you could scale the Credit Card for smaller screens
 * **!!NEW!!** Now you could use CardView as a Component. example use case: showing saved payment details, etc.
 * Lite version for smaller screens (or if skeuomorphic is not really your thing)
@@ -34,11 +34,18 @@ Code:
 * Form is fully navigatable using keypad
 * Works on both Android and iOS
 
+# Usage
+
+```bash
+npm i --save https://github.com/TouchMedia360/react-native-input-credit-card
+OR
+yarn add https://github.com/TouchMedia360/react-native-input-credit-card
+```
 
 then add these lines in your react-native codebase
 
 ```js
-import { CreditCardInput, LiteCreditCardInput } from "react-native-vertical-input-credit-card";
+import { CreditCardInput, LiteCreditCardInput } from "react-native-credit-card-input";
 
 <CreditCardInput onChange={this._onChange} />
 // or
@@ -206,5 +213,3 @@ react-native run-android
 * `imageFront` and `imageBack` props are renamed to `cardImageFront` and `cardImageBack` respectively,
 * Android `monospace` fonts doesn't looks as nice as iOS `Courier`, bundle custom fonts into your app and override the default using `cardFontFamily` instead
 
-# Production App using react-native-vertical-input-credit-card
-* Grain.com.sg ([iOS](https://grain.com.sg/mobile/ios/download), [Android](https://grain.com.sg/mobile/android/download)) – Gourmet food delivery in Singapore
