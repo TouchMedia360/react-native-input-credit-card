@@ -37,7 +37,7 @@ const s = StyleSheet.create({
 
 export default class CCInput extends Component {
   static propTypes = {
-    field: PropTypes.string.isRequired,
+    field: PropTypes.string,
     label: PropTypes.string,
     value: PropTypes.string,
     placeholder: PropTypes.string,
