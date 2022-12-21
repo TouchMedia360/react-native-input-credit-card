@@ -87,7 +87,7 @@ _onChange => form => console.log(form);
 |onChange | PropTypes.func | Receives a `formData` object every time the form changes |
 |onFocus | PropTypes.func | Receives the name of currently focused field |
 |placeholders | PropTypes.object | Defaults to <br/>`{ number: "1234 5678 1234 5678", expiry: "MM/YY", cvc: "CVC" }` |
-|inputStyle | Text.propTypes.style | Style for credit-card form's textInput |
+|inputStyle | PropTypes.style | Style for credit-card form's textInput |
 |validColor | PropTypes.string | Color that will be applied for valid text input. Defaults to: "{inputStyle.color}" |
 |invalidColor | PropTypes.string | Color that will be applied for invalid text input. Defaults to: "red" |
 |placeholderColor | PropTypes.string | Color that will be applied for text input placeholder. Defaults to: "gray" |
@@ -109,9 +109,9 @@ LiteCreditCardInput does not support `requiresName`, `requiresCVC`, and `require
 |cardFontFamily | PropTypes.string | Font family for the CreditCardView, works best with monospace fonts. Defaults to Courier (iOS) or monospace (android) |
 |cardImageFront | PropTypes.number | Image for the credit-card view `e.g. require("./card.png")` |
 |cardImageBack | PropTypes.number | Image for the credit-card view `e.g. require("./card.png")` |
-|labelStyle | Text.propTypes.style | Style for credit-card form's labels |
-|inputStyle | Text.propTypes.style | Style for credit-card form's textInput |
-|inputContainerStyle | ViewPropTypes.style | Style for textInput's container<br/> Defaults to: `{ borderBottomWidth: 1, borderBottomColor: "black" }` |
+|labelStyle | PropTypes.style | Style for credit-card form's labels |
+|inputStyle | PropTypes.style | Style for credit-card form's textInput |
+|inputContainerStyle | PropTypes.style | Style for textInput's container<br/> Defaults to: `{ borderBottomWidth: 1, borderBottomColor: "black" }` |
 |validColor | PropTypes.string | Color that will be applied for valid text input. Defaults to: "{inputStyle.color}" |
 |invalidColor | PropTypes.string | Color that will be applied for invalid text input. Defaults to: "red" |
 |placeholderColor | PropTypes.string | Color that will be applied for text input placeholder. Defaults to: "gray" |
