@@ -6,12 +6,12 @@ import compact from "lodash.compact";
 
 export const InjectedProps = {
   focused: PropTypes.string,
-  values: PropTypes.object.isRequired,
-  status: PropTypes.object.isRequired,
-  onFocus: PropTypes.func.isRequired,
-  onChange: PropTypes.func.isRequired,
-  onBecomeEmpty: PropTypes.func.isRequired,
-  onBecomeValid: PropTypes.func.isRequired,
+  values: PropTypes.object,
+  status: PropTypes.object,
+  onFocus: PropTypes.func,
+  onChange: PropTypes.func,
+  onBecomeEmpty: PropTypes.func,
+  onBecomeValid: PropTypes.func,
   requiresName: PropTypes.bool,
   requiresCVC: PropTypes.bool,
   requiresPostalCode: PropTypes.bool,
@@ -21,7 +21,7 @@ export default function connectToState(CreditCardInput) {
   class StateConnection extends Component {
     static propTypes = {
       autoFocus: PropTypes.bool,
-      onChange: PropTypes.func.isRequired,
+      onChange: PropTypes.func,
       onFocus: PropTypes.func,
       requiresName: PropTypes.bool,
       requiresCVC: PropTypes.bool,
