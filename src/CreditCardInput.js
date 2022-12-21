@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import PropTypes from "deprecated-react-native-prop-types";
+import PropTypes from "prop-types";
+import {ViewPropTypes} from 'deprecated-react-native-prop-types';
 import {
   NativeModules,
   View,
@@ -7,7 +8,6 @@ import {
   StyleSheet,
   ScrollView,
   Dimensions,
-  ViewPropTypes,
   TextInput,
   findNodeHandle,
 } from "react-native";

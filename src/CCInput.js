@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import PropTypes from "deprecated-react-native-prop-types";
+import PropTypes from "prop-types";
+import {ViewPropTypes} from 'deprecated-react-native-prop-types';
 import {
   View,
   Text,
   TextInput,
   TouchableOpacity,
   StyleSheet,
-  ViewPropTypes,
   Image,
 } from "react-native";
 

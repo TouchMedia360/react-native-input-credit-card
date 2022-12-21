@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import PropTypes from "deprecated-react-native-prop-types";
+import PropTypes from "prop-types";
 import CCFieldFormatter from "./CCFieldFormatter";
 import CCFieldValidator from "./CCFieldValidator";
 import compact from "lodash.compact";
